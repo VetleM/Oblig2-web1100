@@ -1,0 +1,149 @@
+header  {
+    position: sticky;
+    top:0px;
+    left:0px;
+}
+header ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+    text-align: center;
+
+}
+
+header li  {
+    display: block;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    overflow: hidden;
+    padding-right: 35px;
+}
+header li a {
+    text-decoration: none;
+    color: white
+        }
+
+header li a:hover  {
+    color: #c1c1c1
+}
+body {
+    margin: 0px;
+    background-color:rgba(2, 2, 2, 0.05);
+    font-size: 50;
+    
+}
+h1 {
+    text-align: center
+}
+
+article {
+    padding:0 30%;
+    overflow: hidden;
+    line-height: 1,8;
+    font-size: 20px;
+}
+
+
+h2  {
+    text-align: center;
+    padding:0 15%;
+    overflow: hidden;
+}
+.Bilder img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left;-200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+@media screen and (max-width:768px){
+    article{
+        padding:0 20%;
+        overflow: hidden;
+        line-height: 1,8;
+        font-size: 18px;
+    }
+
+@media screen and (max-width:480px){
+    article {
+        overflow: hidden;
+        padding: 0 10%;
+        line-height: 1,8;
+        font-size: 17px;
+    }
+    
+   header ul li {
+        float: none;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        padding: 4px;
+        border-bottom: 1px solid #404040;
+        display: block;
+        
+        
+    }
+ header {
+    float: none;
+    top:0px;
+    left:0px;
+    position:static;
+    margin: 0;
+}
+   
